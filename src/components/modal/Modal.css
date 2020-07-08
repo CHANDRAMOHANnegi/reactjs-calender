@@ -1,0 +1,27 @@
+.modal{
+    position: ABSOLUTE;
+    TOP: 0;
+    LEFT: 0;
+    WIDTH: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.37);
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    /*display: none;*/
+
+}
+
+.modal form{
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal form input{
+    margin: 10px;
+}

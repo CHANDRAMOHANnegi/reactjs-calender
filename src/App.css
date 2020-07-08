@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+}
+
+thead {
+
+    background-color: rgba(31, 216, 235, 0.3)
+}
+
+tr:not(:first-child) td {
+    height: 80px !important;
+}
+
+
+td div {
+    max-height: 60px;
+    overflow: auto;
+}

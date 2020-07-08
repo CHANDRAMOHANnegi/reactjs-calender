@@ -1,0 +1,109 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    padding: 0;
+    margin: 0;
+}
+ 
+.calendar {
+     border-collapse: collapse;
+    width: 100%;
+}
+.calendar-container{
+    padding: 20px;
+}
+.calendar-header {
+    border-bottom: 1px dashed skyblue;
+    font-size: 1.6em;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-left: 5px;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    /* height: 20px; */
+}
+ 
+.week-day {
+    font-size: 1em;
+}
+
+.day{position: relative;}
+.day span {
+    font-size: 1em;  
+  }
+
+.day {
+    width: 15%;
+    height: 10vh;
+    line-height: 24px;
+    border: 1px solid black;
+}
+
+.current-day {
+    background-color: #4285f4;
+    border-radius: 2%;
+    color: white;
+}
+.selected-day {
+    background-color:yellow;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
+
+.month-popup {
+    position: absolute;
+    z-index: 10;
+    padding: 5px;
+        left: 0;
+    background: white;
+    border: 2px solid skyblue;
+}
+
+.month-popup   {
+ max-height: 400px;
+}
+
+.nav-month {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    right:3px;
+}
+ 
+.editor-year {
+    max-width: 3.6em;
+}
+
+.label-month,
+.label-year {
+    font-size: 18px;
+    display: inline-block;
+    margin-right:10px; 
+}
+
+.label-month {
+    cursor: pointer;
+    position: relative;
+    color: #f47442;
+}
+
+.label-year {
+    color: #6842f4;
+}
+
+.addTodoSign{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
